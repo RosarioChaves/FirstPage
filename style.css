@@ -1,0 +1,149 @@
+img{
+    width: 400px;
+}
+body {
+    background-color: #efeef4;
+}
+
+#titulo-principal {
+    font-size: 12vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1d2820c9;
+    text-align: center;
+    margin: 0;
+    border: 0 solid rgb(255, 255, 255);
+    border-radius: 0;
+    padding: 3vh;
+    background-image: url(fotos/portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.indice {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2vw;
+    margin: 0;
+    padding: 1vw;
+    background-color: #2d3f2f;
+    text-align: center;
+    border: 1vw solid #1d2820;
+}
+
+.indice a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+    margin: 0.3vw;
+}
+
+.El-arte-vinificación {
+    display: flex;
+    align-items: flex-start;
+}
+body .El-arte-vinificación{
+    background-color: #2d3f2f;
+    width: 100%;
+}
+.El-arte-vinificación .texto {
+    flex: 1;
+    text-align: left;
+    padding: 1vw 2vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+}
+.El-arte-vinificación h3 {
+    color: #efeef4;
+    margin-top: 1vw;
+    text-align: center;
+}
+.El-arte-vinificación p {
+    color: #efeef4;
+    margin-bottom: 0.2vw;
+}
+.El-arte-vinificación .imagenes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.El-arte-vinificación .imagenes-container img {
+    width: 18vw;
+    padding: 0;
+    border: 0vw solid #281d1d;
+    border-right: 4vw solid #b2bbda;
+    margin: 0vw;
+}
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.2vw;
+    padding: 0 0 0 2vw;
+    border-color: none;
+    border-radius: 0;
+    background-color: #b2bbda;
+    background-position: center;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5vw;
+}
+
+div {
+    background-color: none;
+}
+
+.Imagen1,
+.Imagen2,
+.Imagen3 {
+    padding: 0;
+    margin: -0.2vw;
+    width: 30vw;
+    background-color: rgba(255, 4, 4, 0);
+    border-width: 0 0 3.5vw 0;
+    border-style: solid;
+    border-color: rgba(31, 8, 0, 0.624);
+}
+
+.contenedor-imagenes {
+    display: flex;
+}
+
+.contenedor-imagenes img {
+    margin-right: 9vw;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.encuesta {
+    color: rgb(57, 20, 92);
+    background-color: darkslateblue;
+}
+
+input[type="checkbox"] {
+    text-decoration: double;
+}
+
+.Imagenv1,
+.Imagenv2,
+.Imagenv3 {
+    padding: 0;
+    margin: -1vw;
+    width: 33vw;
+    background-color: rgb(0, 0, 0);
+    border-width: 0;
+    border-style: solid;
+    border-color: rgba(31, 8, 0, 0.66);
+    border-radius: 10%;
+}
