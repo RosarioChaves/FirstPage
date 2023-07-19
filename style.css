@@ -1,149 +1,282 @@
-img{
-    width: 400px;
-}
+/*ASPECTOS GENERALES*/
 body {
-    background-color: #efeef4;
+  background-color: #ffffff;
 }
 
+/*_____________PORTADA_______________*/
 #titulo-principal {
-    font-size: 12vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #1d2820c9;
-    text-align: center;
-    margin: 0;
-    border: 0 solid rgb(255, 255, 255);
-    border-radius: 0;
-    padding: 3vh;
-    background-image: url(fotos/portada.jpg);
-    background-position: center;
-    background-size: cover;
+  font-size: 14vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #f15b29;
+  text-align: center;
+  margin: 0;
+  border: 0 solid rgb(255, 255, 255);
+  border-radius: 0;
+  padding: 3vh;
+  background-image: url(fotos/portada.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
+/*______________MENU__________________*/
 .indice {
-    color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.2vw;
-    margin: 0;
-    padding: 1vw;
-    background-color: #2d3f2f;
-    text-align: center;
-    border: 1vw solid #1d2820;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.2vw;
+  margin: 0;
+  padding: 1vw;
+  background-color: black;
+  text-align: center;
 }
-
 .indice a {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2vw;
-    text-decoration: none;
-    border: 0;
-    padding: 0;
-    margin: 0.3vw;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
+  text-decoration: none;
+  border: 0;
+  padding: 0;
+  margin: 0.3vw;
 }
 
-.El-arte-vinificación {
-    display: flex;
-    align-items: flex-start;
+/*_______________INTRO_________________*/
+body .Intro {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  background-color: #f15b29;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-body .El-arte-vinificación{
-    background-color: #2d3f2f;
-    width: 100%;
+.Intro h2 {
+  text-align: center;
+  margin: 2%;
+  color:#f5f5b8 ;
+  font-size: 3vw;
+}
+.Intro p {
+  margin-right: 3%;
+}
+
+/*_________EL ARTE DE LA VINIFICACION___________*/
+.El-arte-vinificación {
+  display: flex;
+  align-items: flex-start;
+}
+body .El-arte-vinificación {
+  background-color: #eacee4;
+  width: 95%;
+  margin-left: 2.5%;
 }
 .El-arte-vinificación .texto {
-    flex: 1;
-    text-align: left;
-    padding: 1vw 2vw;
-    margin-left: 1vw;
-    margin-bottom: 2vw;
+  flex: 1;
+  text-align: left;
+  padding: 1vw 2vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  width: 50%;
 }
 .El-arte-vinificación h3 {
-    color: #efeef4;
-    margin-top: 1vw;
-    text-align: center;
+  color: #1d2820;
+  margin-top: 1vw;
+  text-align: center;
+  font-size: 3vw;
 }
 .El-arte-vinificación p {
-    color: #efeef4;
-    margin-bottom: 0.2vw;
+  color: #000000;
+  margin-bottom: 0.5%;
 }
 .El-arte-vinificación .imagenes-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:45%;
+  height: 100%;
+}
+.El-arte-vinificación .imagenes-container .fotoa1{
+  margin-top: 3vw;
 }
 .El-arte-vinificación .imagenes-container img {
-    width: 18vw;
-    padding: 0;
-    border: 0vw solid #281d1d;
-    border-right: 4vw solid #b2bbda;
-    margin: 0vw;
+  border: 0.5vw solid #2d3f2f;
+  margin: 0.5vw;
+  width: 40%;
+  align-self: center;
+}
+.El-arte-vinificación .imagenes-container #fotoa3{
+  margin-bottom: 2vw;
 }
 
-
-h2 {
-    color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3.2vw;
-    padding: 0 0 0 2vw;
-    border-color: none;
-    border-radius: 0;
-    background-color: #b2bbda;
-    background-position: center;
+/*____________VARIEDADES DE UVAS_____________*/
+body .Variedades-uva {
+  background-color: #2d3f2f;
+  width: 95%;
+  margin: 2.5%;
+}
+.Variedades-uva{
+  display: flex;
+  align-items: flex-start;
+}
+.Variedades-uva .Imagenv1{
+  flex-direction: column;
+  align-items:center;
+  width:31%;
+  border: none;
+}
+.Variedades-uva h3 {
+  font-size: 3vw;
+  margin-top: 0vw;
+}
+.Variedades-uva ul {
+  color: #efeef4;
+  background: none;
+}
+.Variedades-uva .texto{
+  color: #eacee4;
+  flex: 1;
+  text-align: left;
+  padding: 1vw 2vw;
+  margin-left: 2%;
+  width: 50%;
 }
 
-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3.5vw;
+/*_____________MARIDAJE Y DEGUSTACIÓN_____________*/
+.Maridaje-degustación {
+  display: flex;
+  align-items: flex-start;
+}
+body .Maridaje-degustación {
+  background: #f5f5b8;
+  width: 95%;
+  align-self:center;
+  margin: 2.5%;
+}
+.Maridaje-degustación h3 {
+  font-size: 3vw;
+}
+.Maridaje-degustación .texto {
+  color: #252d34;
+  margin: 2.5%;
+}
+.Maridaje-degustación ul {
+  color: #f15b29;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-right: 5%;
+  background: none;
+  border: #efeef4;
 }
 
-div {
-    background-color: none;
+/*______________MOSAICO FOTOS________________*/
+body .mosaico {
+  width: 95%;
+  background: #252d34;
+  margin: 2.5%;
+}
+.mosaico {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+}
+.mosaico img {
+  width: 50%;
+  display: block;
+  margin: 0%;
+}
+.mosaico #mosaico1 {
+  grid-row: 1;
+  justify-self: start;
+  align-self: start;
+}
+.mosaico #mosaico2 {
+  grid-row: 2;
+  margin-top: -1%;
+  justify-self: end;
+  align-self: end;
 }
 
-.Imagen1,
-.Imagen2,
-.Imagen3 {
-    padding: 0;
-    margin: -0.2vw;
-    width: 30vw;
-    background-color: rgba(255, 4, 4, 0);
-    border-width: 0 0 3.5vw 0;
-    border-style: solid;
-    border-color: rgba(31, 8, 0, 0.624);
+/*______________BENEFICIOS DEL VINO______________*/
+body .Beneficios {
+  background:  #dec5df;
+  width: 95%;
+  align-self:center;
+  margin: 2.5%;
+}
+.Beneficios {
+  display: flex;
+  align-items: flex-start;
+}
+.Beneficios h3 {
+  font-size: 3vw;
+}
+.Beneficios .texto {
+  color: #311c3b;
+  margin: 0% 2.5% 2.5% 2.5%;
+}
+.Beneficios ul {
+  color: #311c3b;
+  background: none
 }
 
-.contenedor-imagenes {
-    display: flex;
+/*_______________DATOS ADICIONALES_____________*/
+body .Datos {
+  background: #b6bf89;
+  width: 95%;
+  margin: 2.5%;
+}
+.Datos .texto {
+  color: #1b1a1d;
+  margin: 2.5%;
+}
+.Datos h3 {
+  border-top: 3vw;
+  font-size: 3vw;
+}
+.Datos img {
+  width: 94%;
+  border: 3vw solid #ffffff;
+  margin: 0 auto;
+}
+.Datos a {
+  font-size: 2vw;
+  background-color: none;
+  color: #000000;
+}
+.Datos p {
+  margin: 0%;
 }
 
-.contenedor-imagenes img {
-    margin-right: 9vw;
+/*_______________ENCUESTA_________________*/
+body .Encuesta {
+  border-top: 1vw solid #000000;
+  background: black;
+  width: 100%;
+}
+.Encuesta {
+  color: #ffffff;
+  width: 95%;
+}
+/* campo de texto */
+.Encuesta .Casilla-texto {
+  display: flex;
+  border: 1vw solid #000000;
+}
+.Encuesta input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}
+/* botón */
+.Encuesta button[type="submit"] {
+  padding: 5px 10px;
+  background: #f15b29;
+  border: none;
+  color: black;
 }
 
-p,
-ul,
-ol {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5vw;
-    text-align: left;
-}
-
-.encuesta {
-    color: rgb(57, 20, 92);
-    background-color: darkslateblue;
-}
-
-input[type="checkbox"] {
-    text-decoration: double;
-}
-
-.Imagenv1,
-.Imagenv2,
-.Imagenv3 {
-    padding: 0;
-    margin: -1vw;
-    width: 33vw;
-    background-color: rgb(0, 0, 0);
-    border-width: 0;
-    border-style: solid;
-    border-color: rgba(31, 8, 0, 0.66);
-    border-radius: 10%;
+/*__________INFORMACION - FOOTER_____________*/
+footer p, a {
+  font-size: 2vw;
+  font-style: normal;
+  color: #f15b29;
+  margin: 0vw;
 }
